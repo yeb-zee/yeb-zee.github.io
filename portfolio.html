@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>포트폴리오</title>
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu|Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+   
+    <style>
+        #menubar{
+            background: #a0a0a0;
+        }
+        #menubar ul{
+            margin: 20;
+            padding: 0;
+/*            width: 567px;*/
+        }
+        #menubar ul li{
+            display: inline-block;
+            list-style-type: none;
+            padding: 10px 15px;
+        }
+        #menubar ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            opacity: 0.5;
+            transform: scale(1);
+            transition: all 0.5s;
+        }
+        #menubar ul li a:hover{
+            padding: 10px 15px;
+            background-color: #cccccc;
+/*            color:violet;*/
+            opacity: 0.5;
+            transform: scale(1.5);
+        }
+        
+/*             헤더 */
+            #header {
+                border:  0px;
+                padding: 0px;
+            }
+            #headA {
+                font-size:1.3rem;
+                font-family: 'Rock Salt', cursive;
+                display: inline;
+                padding: 15px;
+            }
+            #headA a {
+            color: #b1b1b1; 
+            font-weight: normal; 
+            text-decoration: none;
+            font-size: 24px;
+            }
+            #headA a:hover {
+            color: #ffffff;
+            }
+            #headB {
+                float: right;
+                margin-left: 20px;
+                padding-bottom: 16px;
+            }
+/*             본문 */
+            #wapper {
+                        text-align: center;
+                        max-width: 1000px;
+                        margin: 0 auto;
+                    }
+            h1 {
+                        color: #444444;
+                        font-family: 'Patrick Hand SC', cursive;
+                        font-size: 40px;
+                    }
+            body {
+                font-family: 'Patrick Hand SC', cursive;
+                font-size:12px;
+                color:#444444;
+            }
+            ul {
+                list-style-type:none;
+            }
+            .clear {
+                clear:both;
+            }
+            #new .item{
+                float:center;
+                margin-top:20px;	
+                text-align:center;
+            }
+            #new .subject{
+                margin-top:10px;
+                color:#444444;
+                font-size:18px;
+                font-weight:bold;
+            }
+            #new .comment{
+                margin-top:5px;
+                color:#888888;
+            }
+            #introduction {
+    /*            border: 5px solid #ffc5f8;*/
+                border: 7px darkorange;
+                padding: 20px 10px 20px 10px;
+                width: 100%; height: 15%; clear: both;
+                line-height:170%;
+                font-family: 'Patrick Hand SC', cursive;
+            }
+/*             푸터 */
+            #footer{
+            border:solid 2px #cccccc;
+            color: #ffffff;
+            width: 98%; height: 15%; clear: both; 
+            background: #cccccc;
+            font-family: 'Patrick Hand SC', cursive;
+            font-size: 10px;
+            }
+    </style>
+</head>
+<body>
+   <header id="header">
+    <div id="headA">
+        <a href="index.html">YEBZEE</a>
+    </div>
+    <nav id="menubar">
+       <ul>
+           <li><a href="profile.html">PROFILE</a></li>
+                       <li><a href="hw01.html">HW01</a></li>
+                       <li><a href="hw02.html">HW02</a></li>
+                       <li><a href="hw03.html">HW03</a></li>
+                       <li><a href="hw04.html">HW04</a></li>
+                       <li><a href="hw05.html">HW05</a></li>
+                       <li><a href="hw06.html">HW06</a></li>
+                       <li><a href="portfolio.html">PORTFOLIO</a></li>
+       </ul>
+    </nav>
+       <br>
+       <br>
+       <br>
+<!--        본문 -->
+       <div id="wapper">
+       <h1>PORTFOLIO</h1>
+       <br>
+       <br>
+       <br>
+  <div id="new">
+    <ul class="item">
+      <li class="subject">- Content Design -</li>
+      <li><img src="img/Content Design.jpg" art="콘텐츠 디자인" width="350"></li>
+      <li class="comment">검은 피카소라고 불리는 미국의 낙서화가 '장 미셸 바스키아'에 대해 조사하고,<br>그의 스타일을 살려 웹페이지를 디자인한 콘텐츠디자인 수업의 결과물</li>
+    </ul>
+    <br><br><br><br><br>
+    <ul class="item">
+      <li class="subject">- Video Design -</li>
+      <li><img src="img/video design.jpg" art="영상 디자인" width="700"></li>
+      <li class="comment">영상 디자인 중간평가인 브랜드 모션그래픽 홍보영상을 만들기 위해<br>선정한 핸드드립 커피 브랜드 'BLUE BOTTLE'의 스타일프레임</li>
+    </ul>
+  </div>
+   <br><br><br>
+<!--        푸터 -->
+   <footer>
+        <div id="footer">
+           <p>
+               COPYRIGHT &copy YEBZEE, ALL RIGHTS RESERVED.
+               <br><br>
+               CONTACT eyuio603@naver.com FOR MORE INFORMATION.
+               <br><br>
+               TEL. 010-5919-6073 PERSONAL INFORMATION MANAGER.
+           </p> 
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
