@@ -5,8 +5,37 @@
     <title>뉴질랜드로 떠나요~♬</title>
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gaegu|Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
    
     <style>
+         #menubar{
+            background: #a0a0a0;
+        }
+        #menubar ul{
+            margin: 20;
+            padding: 0;
+/*            width: 567px;*/
+        }
+        #menubar ul li{
+            display: inline-block;
+            list-style-type: none;
+            padding: 10px 15px;
+        }
+        #menubar ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            opacity: 0.5;
+            transform: scale(1);
+            transition: all 0.5s;
+        }
+        #menubar ul li a:hover{
+            padding: 10px 15px;
+            background-color: #cccccc;
+/*            color:violet;*/
+            opacity: 0.5;
+            transform: scale(1.5);
+        }
 /*          메인 메뉴 */
             #main_mune ul {
                 margin: 10px;
@@ -31,14 +60,14 @@
                 color : #ffffff;
                 font-family: 'Patrick Hand SC', cursive;
             }
-/*             헤더 */
+/*            헤더 */
             #header {
                 border:  0px;
                 padding: 0px;
             }
             #headA {
                 font-size:1.3rem;
-                font-family: 'Patrick Hand SC', cursive;
+                font-family: 'Rock Salt', cursive;
                 display: inline;
                 padding: 15px;
             }
@@ -132,23 +161,23 @@
 </head>
 <body>
 <!--   헤더 -->
-    <header id="header">
-        <div id="headA">
-            <a href="index.html">YEBZEE</a>
-        </div>
-        <div id="headB">
-            <ul id="main_menu">
-               <li><a href="profile.html">PROFILE</a></li>
-               <li><a href="hw01.html">HW01</a></li>
-               <li><a href="hw02.html">HW02</a></li>
-               <li><a href="hw03.html">HW03</a></li>
-               <li><a href="hw04.html">HW04</a></li>
-               <li><a href="hw05.html">HW05</a></li>
-               <li><a href="hw06.html">HW06</a></li>
-               <li><a href="portfolio.html">PORTFOLIO</a></li>
-            </ul>
-        </div>
-    </header>
+      <header id="header">
+    <div id="headA">
+        <a href="index.html">YEBZEE</a>
+    </div>
+    <nav id="menubar">
+       <ul>
+           <li><a href="profile.html">PROFILE</a></li>
+                       <li><a href="hw01.html">HW01</a></li>
+                       <li><a href="hw02.html">HW02</a></li>
+                       <li><a href="hw03.html">HW03</a></li>
+                       <li><a href="hw04.html">HW04</a></li>
+                       <li><a href="hw05.html">HW05</a></li>
+                       <li><a href="hw06.html">HW06</a></li>
+                       <li><a href="portfolio.html">PORTFOLIO</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+       </ul>
+    </nav>
     <br>
     <br>
     <br>
