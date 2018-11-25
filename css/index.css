@@ -1,0 +1,41 @@
+.cr {
+    margin-top: 100px;
+}
+
+.conB {
+    margin-bottom: 100px;
+    margin-top: 150px;
+    text-align: center;
+}
+@media (min-width:768px){
+    .conB .container{
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conB .text{
+        flex: 1;
+    }
+}
+a{
+    color: #a0a0a0;
+}
+a:hover{
+    color: #ffffff;
+}
+h2{
+    color: #7e7e7e;
+}
+p{
+    color: #939393;
+    max-width: 210px;
+    margin-left:55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.text i{
+    font-size: 40px;
+    color: #a0a0a0;
+}
+
